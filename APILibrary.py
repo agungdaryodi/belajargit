@@ -2,7 +2,7 @@ import requests
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Color, colors
 
-request_url = "http://10.181.131.252:60007/predict"
+request_url = "http://10.181.131.252:8000/predict"
 # input_header = {"x-api-key": ""}
 
 class APILibrary:
